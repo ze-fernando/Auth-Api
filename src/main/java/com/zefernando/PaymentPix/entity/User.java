@@ -22,7 +22,7 @@ public class User {
 
     private String password;
 
-    private String verificationToken;
+    private String verificationCode;
 
     private Boolean isActive;
 
@@ -31,7 +31,7 @@ public class User {
         this.name = name;
         this.email = email;
         this.password = password;
-        this.verificationToken = verificationToken;
+        this.verificationCode = verificationCode;
         this.isActive = isActive;
     }
 

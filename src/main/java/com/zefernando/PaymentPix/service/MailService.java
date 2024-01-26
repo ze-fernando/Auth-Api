@@ -418,7 +418,7 @@ public class MailService {
             helper.setSubject(subject);
 
             content = content.replace("[[NAME]]", user.getName());
-            String verifyUrl = this.verifyUrl + user.getVerificationToken();
+            String verifyUrl = this.verifyUrl + user.getVerificationCode();
             content = content.replace("[[URL]]", verifyUrl);
             helper.setText(content, true);
             javaMailSender.send(message);
