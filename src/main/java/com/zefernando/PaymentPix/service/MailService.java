@@ -16,7 +16,7 @@ public class MailService {
     @Autowired
     private JavaMailSender javaMailSender;
 
-    private String verifyUrl = "http://localhost:8080/user/verify/code";
+    private String verifyUrl = "http://localhost:8080/user/verify/";
 
     public void sendEmail(User user) throws MessagingException, UnsupportedEncodingException {
         String toAddress = user.getEmail();
