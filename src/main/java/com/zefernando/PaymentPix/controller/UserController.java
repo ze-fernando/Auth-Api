@@ -17,9 +17,9 @@ import java.io.UnsupportedEncodingException;
 public class UserController {
 
     @Autowired
-    UserService userService;
+    private UserService userService;
 
-    @PostMapping
+    @PostMapping("/register")
     public ResponseEntity<UserResponse> registerUser(@RequestBody @Valid UserRequest userRequest) throws MessagingException, UnsupportedEncodingException {
         User user = userRequest.toModel();
         UserResponse userSaved = userService.registerUser(user);
@@ -33,5 +33,10 @@ public class UserController {
         } else{
             return "User is not active";
         }
+    }
+
+    @GetMapping("/test")
+    public String testLogin(){
+        return "Login successfully";
     }
 }
