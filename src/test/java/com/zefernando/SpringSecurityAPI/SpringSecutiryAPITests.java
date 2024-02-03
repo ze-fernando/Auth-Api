@@ -1,10 +1,10 @@
-package com.zefernando.PaymentPix;
+package com.zefernando.SpringSecurityAPI;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PaymentPixApplicationTests {
+class SpringSecurityAPITests {
 
 	@Test
 	void contextLoads() {

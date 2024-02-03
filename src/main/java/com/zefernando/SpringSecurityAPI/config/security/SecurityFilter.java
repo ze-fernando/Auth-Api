@@ -1,7 +1,7 @@
-package com.zefernando.PaymentPix.config.security;
+package com.zefernando.SpringSecurityAPI.config.security;
 
-import com.zefernando.PaymentPix.repository.UserRepository;
-import com.zefernando.PaymentPix.service.TokenService;
+import com.zefernando.SpringSecurityAPI.repository.UserRepository;
+import com.zefernando.SpringSecurityAPI.service.TokenService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

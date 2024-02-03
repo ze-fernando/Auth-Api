@@ -1,9 +1,9 @@
-package com.zefernando.PaymentPix.controller;
+package com.zefernando.SpringSecurityAPI.controller;
 
-import com.zefernando.PaymentPix.dto.AuthRequest;
-import com.zefernando.PaymentPix.dto.AuthResponse;
-import com.zefernando.PaymentPix.entity.User;
-import com.zefernando.PaymentPix.service.TokenService;
+import com.zefernando.SpringSecurityAPI.dto.AuthRequest;
+import com.zefernando.SpringSecurityAPI.dto.AuthResponse;
+import com.zefernando.SpringSecurityAPI.entity.User;
+import com.zefernando.SpringSecurityAPI.service.TokenService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;

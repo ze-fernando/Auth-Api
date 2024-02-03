@@ -11,7 +11,7 @@
 	<groupId>com.ze-fernando</groupId>
 	<artifactId>Payment-Pix</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Payment-Pix</name>
+	<name>Spring-Security</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>

@@ -1,6 +1,6 @@
-package com.zefernando.PaymentPix.service;
+package com.zefernando.SpringSecurityAPI.service;
 
-import com.zefernando.PaymentPix.repository.UserRepository;
+import com.zefernando.SpringSecurityAPI.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
